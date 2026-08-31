@@ -1,0 +1,175 @@
+<svg width="1200" height="1100" viewBox="0 0 1200 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#111315" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FF4D44" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FF4D44" stop-opacity="0.03"/>
+    </linearGradient>
+    <style>
+      .sans { font-family: "DM Sans", Arial, sans-serif; }
+      .display { font-family: "Archivo Black", "Arial Black", sans-serif; }
+      .ink { fill: #090A0B; }
+      .muted { fill: #62666F; }
+      .tiny { font-size: 11px; }
+      .small { font-size: 13px; }
+      .body { font-size: 15px; }
+      .label { font-size: 14px; font-weight: 700; }
+      .title { font-size: 28px; font-weight: 900; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="1100" fill="#F1F3F6"/>
+  <text x="64" y="64" class="display ink" font-size="34">Recommended mobile screen</text>
+  <text x="64" y="94" class="sans muted body">New-token chart state · truthful coverage, useful controls, Robinhood-style focus</text>
+
+  <!-- Mobile screen -->
+  <g filter="url(#shadow)">
+    <rect x="64" y="132" width="428" height="926" rx="32" fill="white"/>
+  </g>
+  <rect x="64.75" y="132.75" width="426.5" height="924.5" rx="31.25" stroke="#111315" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="88" y="179" class="display ink" font-size="20">investmade.</text>
+  <rect x="210" y="153" width="43" height="31" rx="2" fill="#BAFF00" transform="rotate(-4 210 153)"/>
+  <text x="212" y="177" class="display ink" font-size="18">fun</text>
+  <rect x="312" y="149" width="154" height="48" rx="14" fill="white" stroke="#111315" stroke-width="1.5"/>
+  <rect x="329" y="165" width="17" height="13" rx="2.5" stroke="#111315" stroke-width="1.5"/>
+  <path d="M330.5 168L337.5 172L344.5 168" stroke="#111315" stroke-width="1.5"/>
+  <text x="355" y="178" class="sans ink label">0x8fa3…4e59</text>
+  <path d="M447 169L452 174L457 169" stroke="#111315" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64 210H492" stroke="#111315" stroke-width="1.5"/>
+
+  <text x="88" y="252" class="display ink title">Build your next basket</text>
+  <text x="88" y="280" class="sans muted small">Swipe right to allocate 0.1 USDG.</text>
+  <text x="88" y="300" class="sans muted small">Review and confirm before anything moves.</text>
+
+  <!-- Asset card -->
+  <rect x="80" y="324" width="396" height="514" rx="20" fill="white" stroke="#111315" stroke-width="2"/>
+  <rect x="85" y="331" width="396" height="514" rx="20" fill="#D9DDE3" opacity="0.65"/>
+  <rect x="80" y="324" width="396" height="514" rx="20" fill="white" stroke="#111315" stroke-width="2"/>
+
+  <circle cx="119" cy="372" r="28" fill="#E7E9EC" stroke="#A7ADB7" stroke-width="2"/>
+  <circle cx="119" cy="372" r="21" fill="#C6CBD2"/>
+  <path d="M105 366L119 356L133 366L119 376L105 366Z" fill="#8D949E"/>
+  <path d="M105 375L119 385L133 375" stroke="#8D949E" stroke-width="4" stroke-linejoin="round"/>
+  <text x="159" y="371" class="display ink" font-size="28">STEEL</text>
+  <text x="159" y="393" class="sans muted small">Steel</text>
+  <rect x="390" y="342" width="66" height="62" rx="12" fill="white" stroke="#111315" stroke-width="1.5"/>
+  <text x="423" y="373" text-anchor="middle" class="display ink" font-size="25">0.1</text>
+  <text x="423" y="392" text-anchor="middle" class="sans ink tiny" font-weight="700">USDG</text>
+
+  <path d="M96 418H460" stroke="#CBD0D8"/>
+  <rect x="96" y="434" width="111" height="26" rx="13" fill="#E9FFD0"/>
+  <circle cx="111" cy="447" r="4" fill="#74A800"/>
+  <text x="123" y="451" class="sans ink tiny" font-weight="700">NEW · 7 DAYS</text>
+  <text x="96" y="492" class="display ink" font-size="31">$2.22</text>
+  <text x="460" y="490" text-anchor="end" class="sans" font-size="13" font-weight="700" fill="#FF4D44">−96.31% · Since Jul 20</text>
+
+  <!-- Chart -->
+  <path d="M96 538 L103 527 L110 556 L118 531 L126 563 L134 541 L142 613 L150 599 L158 591 L166 554 L174 594 L182 574 L190 618 L198 628 L206 636 L214 642 L222 680 L230 672 L238 689 L246 696 L254 697 L262 718 L270 727 L278 730 L286 736 L294 728 L302 729 L310 742 L318 727 L326 738 L334 723 L342 737 L350 735 L358 729 L366 743 L374 744 L382 744 L390 746 L398 753 L406 752 L414 755 L422 758 L430 755 L438 758 L446 757 L454 758 L460 758 L460 776 L96 776 Z" fill="url(#chartFill)"/>
+  <path d="M96 538 L103 527 L110 556 L118 531 L126 563 L134 541 L142 613 L150 599 L158 591 L166 554 L174 594 L182 574 L190 618 L198 628 L206 636 L214 642 L222 680 L230 672 L238 689 L246 696 L254 697 L262 718 L270 727 L278 730 L286 736 L294 728 L302 729 L310 742 L318 727 L326 738 L334 723 L342 737 L350 735 L358 729 L366 743 L374 744 L382 744 L390 746 L398 753 L406 752 L414 755 L422 758 L430 755 L438 758 L446 757 L454 758 L460 758" stroke="#FF4D44" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="96" y="795" class="sans muted tiny" font-weight="700">Jul 20</text>
+  <text x="278" y="795" text-anchor="middle" class="sans muted tiny" font-weight="700">Jul 24</text>
+  <text x="460" y="795" text-anchor="end" class="sans muted tiny" font-weight="700">Jul 27</text>
+
+  <!-- Timeframe control -->
+  <rect x="96" y="807" width="364" height="42" rx="21" fill="white" stroke="#CBD0D8" stroke-width="1.5"/>
+  <text x="126" y="833" text-anchor="middle" class="sans muted small" font-weight="700">1H</text>
+  <text x="184" y="833" text-anchor="middle" class="sans muted small" font-weight="700">1D</text>
+  <text x="242" y="833" text-anchor="middle" class="sans muted small" font-weight="700">1W</text>
+  <text x="300" y="833" text-anchor="middle" class="sans" font-size="13" font-weight="700" fill="#A7ADB7">1M</text>
+  <circle cx="307" cy="819" r="2.5" fill="#A7ADB7"/>
+  <text x="358" y="833" text-anchor="middle" class="sans" font-size="13" font-weight="700" fill="#A7ADB7">1Y</text>
+  <circle cx="365" cy="819" r="2.5" fill="#A7ADB7"/>
+  <rect x="405" y="812" width="49" height="32" rx="16" fill="#BAFF00"/>
+  <text x="429.5" y="833" text-anchor="middle" class="sans ink small" font-weight="800">All</text>
+
+  <!-- Coverage explanation and counter -->
+  <text x="96" y="872" class="sans muted tiny">Only 7 days of history · 1M available Aug 20</text>
+  <text x="460" y="872" text-anchor="end" class="sans muted tiny">1 of 10</text>
+
+  <!-- Budget rail -->
+  <path d="M64 895H492" stroke="#111315" stroke-width="1.5"/>
+  <text x="88" y="928" class="sans ink small" font-weight="800">This month</text>
+  <text x="172" y="930" class="display" font-size="24" fill="#74A800">50.00</text>
+  <text x="245" y="928" class="sans ink small">USDG left</text>
+  <text x="318" y="928" class="sans muted tiny">· 0 selected · 0.10 each</text>
+  <rect x="88" y="944" width="380" height="5" rx="2.5" fill="#E1E4E8"/>
+  <circle cx="95" cy="971" r="4" fill="#FF1280"/>
+  <text x="105" y="975" class="sans muted tiny">Quotes: Uniswap</text>
+  <circle cx="288" cy="971" r="4" fill="#A6FF00"/>
+  <text x="298" y="975" class="sans muted tiny">Robinhood Chain</text>
+  <text x="468" y="975" text-anchor="end" class="sans tiny" font-weight="700" fill="#21A447">Live signing</text>
+
+  <!-- Fixed actions -->
+  <path d="M64 995H492" stroke="#CBD0D8"/>
+  <rect x="80" y="1008" width="138" height="42" rx="10" fill="white" stroke="#FF4D44" stroke-width="1.5"/>
+  <text x="149" y="1035" text-anchor="middle" class="sans" font-size="14" font-weight="800" fill="#FF4D44">Skip</text>
+  <rect x="228" y="1008" width="248" height="42" rx="10" fill="#BAFF00" stroke="#111315" stroke-width="1.5"/>
+  <text x="352" y="1035" text-anchor="middle" class="sans ink" font-size="14" font-weight="800">Add 0.1 USDG</text>
+
+  <!-- Notes -->
+  <text x="560" y="170" class="display ink" font-size="27">Why this state works</text>
+  <text x="560" y="198" class="sans muted body">Rules shown next to the production-ready screen.</text>
+
+  <g>
+    <rect x="560" y="226" width="576" height="122" rx="18" fill="white"/>
+    <circle cx="594" cy="260" r="18" fill="#BAFF00"/>
+    <text x="594" y="266" text-anchor="middle" class="display ink body">1</text>
+    <text x="626" y="256" class="sans ink" font-size="17" font-weight="800">Use the full available range as the default</text>
+    <text x="626" y="281" class="sans muted body">“All” means all known data — not a multi-year promise.</text>
+    <text x="626" y="306" class="sans muted body">Coverage is explicit before the performance number.</text>
+    <rect x="626" y="318" width="210" height="22" rx="11" fill="#E9FFD0"/>
+    <text x="731" y="333" text-anchor="middle" class="sans ink tiny" font-weight="700">NEW · 7 DAYS OF HISTORY</text>
+  </g>
+
+  <g>
+    <rect x="560" y="364" width="576" height="122" rx="18" fill="white"/>
+    <circle cx="594" cy="398" r="18" fill="#BAFF00"/>
+    <text x="594" y="404" text-anchor="middle" class="display ink body">2</text>
+    <text x="626" y="394" class="sans ink" font-size="17" font-weight="800">Do not manufacture 1M or 1Y views</text>
+    <text x="626" y="419" class="sans muted body">Disable ranges that need more history and expose the unlock date.</text>
+    <text x="626" y="444" class="sans muted body">Keep 1H / 1D / 1W / All available when their data is real.</text>
+    <text x="626" y="469" class="sans ink small" font-weight="700">Accessibility: aria-disabled + reason on focus/tap</text>
+  </g>
+
+  <g>
+    <rect x="560" y="502" width="576" height="122" rx="18" fill="white"/>
+    <circle cx="594" cy="536" r="18" fill="#BAFF00"/>
+    <text x="594" y="542" text-anchor="middle" class="display ink body">3</text>
+    <text x="626" y="532" class="sans ink" font-size="17" font-weight="800">Derive the axis from actual timestamps</text>
+    <text x="626" y="557" class="sans muted body">Left = first point · center = midpoint · right = latest point.</text>
+    <text x="626" y="582" class="sans muted body">Format by actual span, never by the selected button label.</text>
+    <text x="626" y="607" class="sans ink small" font-weight="700">Example: Jul 20 · Jul 24 · Jul 27</text>
+  </g>
+
+  <g>
+    <rect x="560" y="640" width="576" height="122" rx="18" fill="white"/>
+    <circle cx="594" cy="674" r="18" fill="#BAFF00"/>
+    <text x="594" y="680" text-anchor="middle" class="display ink body">4</text>
+    <text x="626" y="670" class="sans ink" font-size="17" font-weight="800">Make the chart explorable, not decorative</text>
+    <text x="626" y="695" class="sans muted body">Press and drag to scrub; show exact date, time, and price.</text>
+    <text x="626" y="720" class="sans muted body">Announce the value change for screen readers.</text>
+    <text x="626" y="745" class="sans ink small" font-weight="700">Haptic tick only when the active point changes</text>
+  </g>
+
+  <g>
+    <rect x="560" y="778" width="576" height="142" rx="18" fill="#111315"/>
+    <circle cx="594" cy="812" r="18" fill="#FF4D44"/>
+    <text x="594" y="818" text-anchor="middle" class="display" font-size="16" fill="white">!</text>
+    <text x="626" y="808" class="sans" font-size="17" font-weight="800" fill="white">Provider outage is a different state</text>
+    <text x="626" y="833" class="sans" font-size="15" fill="#CBD0D8">Show “Price history unavailable” with Retry.</text>
+    <text x="626" y="858" class="sans" font-size="15" fill="#CBD0D8">Never reuse the last series, interpolate, or fake points.</text>
+    <text x="626" y="891" class="sans" font-size="13" font-weight="700" fill="#BAFF00">New token ≠ unavailable provider</text>
+  </g>
+
+  <g>
+    <rect x="560" y="944" width="576" height="114" rx="18" fill="#E9FFD0"/>
+    <text x="584" y="978" class="sans ink" font-size="16" font-weight="800">Acceptance checks</text>
+    <text x="584" y="1004" class="sans ink small">✓ No repeated “Jul / Jul / Jul” or “2026 / 2026 / 2026” ticks</text>
+    <text x="584" y="1028" class="sans ink small">✓ Return period matches the first and last rendered data points</text>
+    <text x="584" y="1052" class="sans ink small">✓ Disabled ranges cannot be selected by touch or keyboard</text>
+  </g>
+</svg>

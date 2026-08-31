@@ -1,0 +1,16 @@
+.git
+.agents
+.codebase-memory
+.npm-cache
+.env
+.env.local
+node_modules
+dist
+coverage
+audit
+design
+docs
+substreams
+tests
+design-qa.md
+investmade_fun.md

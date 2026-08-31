@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "skills": {
+    "0x-api": {
+      "source": "0xProject/0x-ai",
+      "sourceType": "github",
+      "skillPath": "skills/0x-api/SKILL.md",
+      "computedHash": "6e4514a2a87dbef10339a6346b978d83637bfb8416f813e739441e41ba1723c7"
+    },
+    "neon": {
+      "source": "neondatabase/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/neon/SKILL.md",
+      "computedHash": "f51065e397e6865a234c98a4688b23859fa7744cc0434d95d35dd4e8183fcc31"
+    },
+    "neon-postgres": {
+      "source": "neondatabase/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/neon-postgres/SKILL.md",
+      "computedHash": "d4c284e055236b2a3ea1eaaa7dbcf832918ffad5e2745d8c938fa5b5c671e9a3"
+    },
+    "privy": {
+      "source": "docs.privy.io",
+      "sourceType": "well-known",
+      "computedHash": "0f441f6878c84166b756ef952649b52da990cba6100702a6a80132ed71fb8ade"
+    },
+    "solana-dev": {
+      "source": "solana-foundation/solana-dev-skill",
+      "sourceType": "github",
+      "skillPath": "skills/solana-dev/SKILL.md",
+      "computedHash": "a64f6667d9d9c7dbd29b2bbff727c6c67d6db0099b29cfbcb9ce791a7ab1b0c4"
+    },
+    "swap-integration": {
+      "source": "uniswap/uniswap-ai",
+      "sourceType": "github",
+      "skillPath": "packages/plugins/uniswap-trading/skills/swap-integration/SKILL.md",
+      "computedHash": "093f10ec4ac9b71cfd5716c3a95a85323be6d594334bd35d714b592e3d1d51ba"
+    }
+  }
+}

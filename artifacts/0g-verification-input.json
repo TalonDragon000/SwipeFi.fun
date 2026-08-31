@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "investmade-feed-input/v1",
+  "sessionId": "verify-0g-2026-07-27",
+  "epochId": "verify-epoch-2026-07-27",
+  "policyVersion": "investmade-policy/v1",
+  "budget": {
+    "periodBudgetBaseUnits": "100000000",
+    "slotBudgetBaseUnits": "10000000",
+    "maxCards": 10
+  },
+  "preferences": {
+    "cadence": "weekly",
+    "periodLimitUsd": 100,
+    "ticketSizeUsd": 10,
+    "riskMode": "balanced",
+    "assetClasses": [
+      "CRYPTO",
+      "STOCK_TOKEN"
+    ]
+  },
+  "candidates": [
+    {
+      "assetId": "rh:4663:WETH",
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "kind": "CRYPTO",
+      "contract": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+      "decimals": 18,
+      "eligible": true,
+      "marketHealthy": true,
+      "permissionAllowed": true,
+      "quote": {
+        "requestId": "demo-quote-weth-e79b4524-448a-4646-8ffb-9d84e70052a9",
+        "assetId": "rh:4663:WETH",
+        "tokenOut": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+        "amountInBaseUnits": "10000000",
+        "estimatedAmountOut": "3113000000000000",
+        "minimumAmountOut": "3097435000000000",
+        "unitPriceUsd": "3212.335367",
+        "priceImpactBps": 19,
+        "routing": "CLASSIC",
+        "quotedAt": "2026-07-27T12:00:00.000Z",
+        "expiresAt": "2026-07-27T12:01:00.000Z"
+      },
+      "crowdScoreBps": 6100,
+      "reason": "Positive crypto breadth and an executable low-impact route.",
+      "evidenceIds": [
+        "demo:market:WETH",
+        "demo:crowd:WETH",
+        "demo:quote:WETH"
+      ]
+    },
+    {
+      "assetId": "rh:4663:AAPL",
+      "symbol": "AAPL",
+      "name": "Apple stock token",
+      "kind": "STOCK_TOKEN",
+      "contract": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
+      "decimals": 18,
+      "eligible": true,
+      "marketHealthy": true,
+      "permissionAllowed": true,
+      "quote": {
+        "requestId": "demo-quote-aapl-58863ff2-0db6-4448-be31-1893e0bdeba6",
+        "assetId": "rh:4663:AAPL",
+        "tokenOut": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
+        "amountInBaseUnits": "10000000",
+        "estimatedAmountOut": "29780000000000000",
+        "minimumAmountOut": "29631100000000000",
+        "unitPriceUsd": "335.795836",
+        "priceImpactBps": 33,
+        "routing": "CLASSIC",
+        "quotedAt": "2026-07-27T12:00:00.000Z",
+        "expiresAt": "2026-07-27T12:01:00.000Z"
+      },
+      "crowdScoreBps": 4810,
+      "reason": "Strong crowd signal with acceptable estimated route impact.",
+      "evidenceIds": [
+        "demo:market:AAPL",
+        "demo:crowd:AAPL",
+        "demo:quote:AAPL"
+      ]
+    },
+    {
+      "assetId": "rh:4663:COST",
+      "symbol": "COST",
+      "name": "Costco stock token",
+      "kind": "STOCK_TOKEN",
+      "contract": "0x4EA005168D7F09a7A0Ba9D1DEf21a479950E44C2",
+      "decimals": 18,
+      "eligible": true,
+      "marketHealthy": true,
+      "permissionAllowed": true,
+      "quote": {
+        "requestId": "demo-quote-cost-c0c36726-0b44-479b-bb5f-9301878b5eb1",
+        "assetId": "rh:4663:COST",
+        "tokenOut": "0x4EA005168D7F09a7A0Ba9D1DEf21a479950E44C2",
+        "amountInBaseUnits": "10000000",
+        "estimatedAmountOut": "10000000000000000",
+        "minimumAmountOut": "9950000000000000",
+        "unitPriceUsd": "1000",
+        "priceImpactBps": 22,
+        "routing": "CLASSIC",
+        "quotedAt": "2026-07-27T12:00:00.000Z",
+        "expiresAt": "2026-07-27T12:01:00.000Z"
+      },
+      "crowdScoreBps": 4370,
+      "reason": "Eligible consumer exposure with a current executable route.",
+      "evidenceIds": [
+        "demo:market:COST",
+        "demo:crowd:COST",
+        "demo:quote:COST"
+      ]
+    }
+  ],
+  "inputCommitment": "sha256:97eb0ecbc8dce1d85141c6174f9100a3bbb6c4dd9528c906c05c893ecf907e72"
+}
